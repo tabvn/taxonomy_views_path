@@ -1,0 +1,8 @@
+name: Taxonomy Views Path
+type: module
+description: Taxonomy Views Path
+core: 8.x
+package: Tabvn
+dependencies:
+  - views
+  - taxonomy

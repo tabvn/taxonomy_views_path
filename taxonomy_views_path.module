@@ -1,0 +1,26 @@
+<?php
+
+/**
+ * @file
+ * Contains taxonomy_views_path.module..
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function taxonomy_views_path_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the taxonomy_views_path module.
+    case 'help.page.taxonomy_views_path':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('Taxonomy Views Path') . '</p>';
+      return $output;
+
+    default:
+  }
+}
+
+
